@@ -123,7 +123,7 @@ from
   join pizzas p on pt.pizza_type_id = p.pizza_type_id 
   join order_details o on o.pizza_id = p.pizza_id
   
---total price and tot quantity for each size in classic category
+--Total Sales and tot quantity for each size in classic category
 select 
   pt.category, 
   p.size, 
@@ -144,7 +144,7 @@ group by
 order by 
   tot_price asc
   
---total price and tot quantity for each size in Veggie category
+--Total Sales and tot quantity for each size in Veggie category
 select 
   pt.category, 
   p.size, 
@@ -165,7 +165,7 @@ group by
 order by 
   tot_price asc 
   
---total price and tot quantity for each size in Supreme category
+--Total Sales and tot quantity for each size in Supreme category
   
 select 
   pt.category, 
@@ -187,7 +187,7 @@ group by
 order by 
   tot_price asc 
   
--- total price and tot quantity for each size in Chicken category
+-- Total Sales and tot quantity for each size in Chicken category
   
 select 
   pt.category, 
