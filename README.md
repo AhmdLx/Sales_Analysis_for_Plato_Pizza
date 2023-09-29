@@ -1,7 +1,5 @@
 # pizza SQL Project
 
-Pizza SQL Project: 
-
 Welcome to the " Pizza SQL Project repository" , where data analysis meets gastronomic exploration! This project showcases a rich array of skills, including data cleaning, data modeling, and intricate application of date functions, aggregation functions, and advanced data manipulation techniques like SELECT statements, Advanced joins, CTEs, GROUP BY clauses, and WHERE clauses.
 
 Key Conclusions:
