@@ -1,6 +1,7 @@
 Welcome to the "Sales Analysis repository for Plato's Pizza" , This project showcases a rich array of skills, including Data cleaning, Data Modeling, and application of Date Functions, Aggregation Functions, and advanced data manipulation techniques like SELECT statements, Advanced joins, CTEs, GROUP BY clauses, and WHERE clauses.
 
-#Key insights:
+Key insights:
+
 1/Maximum Orders and Busiest Day:
 
 On November 27, 2015, our restaurant experienced a peak with a staggering 115 orders, making it the busiest day in the dataset. The busiest time was at 12:25:12, with a notable quantity of 28 pieces sold on November 18, 2015 (Wednesday). 
