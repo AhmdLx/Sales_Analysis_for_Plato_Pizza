@@ -1,44 +1,58 @@
---Data Moduling
+--Data Modeling
 alter table 
   orders alter column date date 
+  
 alter table 
   order_details alter column order_details_id int not null 
+  
 alter table 
   order_details alter column order_id int not null 
+  
 alter table 
   order_details alter column pizza_id nvarchar(255) not null 
+  
 alter table 
   order_details 
 add 
   primary key (order_details_id) 
+  
 alter table 
   orders alter column order_id int not null 
+  
 alter table 
   orders 
 add 
   primary key (order_id) 
+  
 alter table 
   order_details 
 add 
-  foreign key (order_id) references orders 
+  foreign key (order_id) references orders
+  
 alter table 
-  pizzas alter column pizza_id nvarchar(255) not null 
+  pizzas alter column pizza_id nvarchar(255) not null
+  
 alter table 
   pizzas 
 add 
   primary key(pizza_id) 
+  
 alter table 
   pizza_types alter column pizza_type_id nvarchar(255) not null 
+  
 alter table 
   pizza_types 
 add 
-  primary key(pizza_type_id) 
+  primary key(pizza_type_id)
+  
 alter table 
   order_details 
 add 
-  foreign key (pizza_id) references pizzas 
+  foreign key (pizza_id) references pizzas
+  
 alter table 
   pizzas alter column pizza_type_id nvarchar(255) not null 
+  
 alter table 
   pizzas 
 add 
